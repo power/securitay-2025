@@ -1,1 +1,1 @@
-# securitay-2025
+# Securi-Tay 2025 CTF's
