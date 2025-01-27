@@ -6,3 +6,4 @@ If you can just whack it in here when you add a chall in the format `NAME - DIFF
 - Cool Runnings - Medium - Steganography
 - Hey, Hey, I Wanna Be a Rockstar - Easy - Code Analysis? Not sure what category this would come under
 - Noise - Ignore this, I didn't realise David already had one about a spectrogram 
+- Land Roving - Hard - OSINT
