@@ -1,0 +1,8 @@
+services:
+  rpsk:
+    build: 
+      context: "."
+      network: host
+    ports:
+      - 38172:38172
+
