@@ -1,0 +1,8 @@
+services:
+  scriptme1:
+    build: 
+      context: "."
+      network: host
+    ports:
+      - 41982:41982
+
