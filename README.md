@@ -8,5 +8,5 @@ If you can just whack it in here when you add a chall in the format `NAME - DIFF
 - Noise - Ignore this, I didn't realise David already had one about a spectrogram 
 - Land Roving - Hard - OSINT
 - Titanic - Easy? It's fairly cliche. - Steganography
-- ScriptMe 1 - Easy >>NEEDS DOCKERSING<<- Scripting 
+- ScriptMe 1 - Easy - Scripting 
 - RPSK - Easy - Idk, integer overflow so misc I guess?
