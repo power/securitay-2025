@@ -11,3 +11,4 @@ If you can just whack it in here when you add a chall in the format `NAME - DIFF
 - ScriptMe 1 - Easy - Scripting 
 - RPSK - Easy - Idk, integer overflow so misc I guess?
 - To Bytes or Not To Bytes - Medium - Stego
+- Moo Moo Moo - Easy - Crypto
