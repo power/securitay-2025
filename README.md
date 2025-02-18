@@ -13,3 +13,4 @@ If you can just whack it in here when you add a chall in the format `NAME - DIFF
 - To Bytes or Not To Bytes - Medium - Stego
 - Moo Moo Moo - Easy - Crypto
 - RSA Reverse - Hard - Crypto
+- Explorer - Medium - OSINT
