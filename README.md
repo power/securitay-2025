@@ -15,3 +15,4 @@ If you can just whack it in here when you add a chall in the format `NAME - DIFF
 - RSA Reverse - Hard - Crypto
 - Explorer - Medium - OSINT
 - Mirandas Mistake - Medium - Forensics
+- Finding a dork - Medium - OSINT + Steganography
