@@ -1,0 +1,1 @@
+We have reason to believe that a malicious actor is currently planning on meeting with a war thunder player they met through social media in an unknown location to share important documents (again). We have no other information about these individuals, only a name: John “Tank” Jones. We need to find out the location so we can put a stop to this!
