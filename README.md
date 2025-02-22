@@ -16,3 +16,4 @@ If you can just whack it in here when you add a chall in the format `NAME - DIFF
 - Explorer - Medium - OSINT
 - Mirandas Mistake - Medium - Forensics
 - Finding a dork - Medium - OSINT + Steganography
+- ScriptMe 2 - Medium - Scripting
