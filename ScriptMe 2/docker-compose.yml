@@ -1,0 +1,11 @@
+services:
+  scriptme1:
+    build: 
+      context: "."
+      network: host
+    ports:
+      - 17751:17751
+      - 39112:39112
+      - 36214:36214
+      - 9999:9999
+
