@@ -1,0 +1,1 @@
+While exploring deep in the filesystem of a local technology enthusiast I found a folder containing these two files, but Celine Dion is sounding a bit different these days and I can't figure out what to do with the other file. Can you figure out the flag?
