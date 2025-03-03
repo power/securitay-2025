@@ -13,7 +13,7 @@ active_knocks = {}  # Stores { "IP": [knock sequence] }
 knock_timestamps = {}  # Stores { "IP": last knock time }
 
 # Time limit (seconds) between knocks before reset
-TIMEOUT = 1
+TIMEOUT = 3 # Upped so the droplet stopped crying
 
 def handle_knock(client_socket, client_ip, port):
     current_time = time.time()
@@ -43,8 +43,9 @@ def handle_knock(client_socket, client_ip, port):
             send_message(client_socket, f"Good! Now knock on port {CORRECT_SEQUENCE[len(sequence)]}.")
         else:
             #print(f"[+] {client_ip} unlocked the flag!")
-            send_message(client_socket, "Correct sequence! Now connect to port 9999 for the flag.")
-            send_flag(client_ip)
+            #send_message(client_socket, "Correct sequence! Now connect to port 9999 for the flag.")
+            #send_message(client_socket, "Congrats, here's your flag: SECURI-TAY{b830f274b91316b09d6ac6ec658cc83d}")
+            #send_flag(client_ip)
             del active_knocks[client_ip]  # Reset their state after success
             del knock_timestamps[client_ip]
 
@@ -63,6 +64,7 @@ def send_message(client_socket, message):
     except Exception as e:
         print(f"[!] Failed to send message: {e}")
 
+"""
 def send_flag(client_ip):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as flag_server:
         flag_server.bind(("0.0.0.0", 9999))
@@ -73,7 +75,7 @@ def send_flag(client_ip):
         if addr[0] == client_ip: # if the users address is the one passed from previous functions, send the flag
             conn.sendall(b"SECURI-TAY{b830f274b91316b09d6ac6ec658cc83d}\n")
         conn.close()
-
+"""
 def start_knock_listener(): # handle connections
     server_sockets = {}
     
