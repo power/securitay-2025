@@ -44,7 +44,7 @@ def handle_knock(client_socket, client_ip, port):
         else:
             #print(f"[+] {client_ip} unlocked the flag!")
             #send_message(client_socket, "Correct sequence! Now connect to port 9999 for the flag.")
-            #send_message(client_socket, "Congrats, here's your flag: SECURI-TAY{b830f274b91316b09d6ac6ec658cc83d}")
+            send_message(client_socket, "Congrats, here's your flag: SECURI-TAY{b830f274b91316b09d6ac6ec658cc83d}")
             #send_flag(client_ip)
             del active_knocks[client_ip]  # Reset their state after success
             del knock_timestamps[client_ip]
